@@ -12,3 +12,7 @@ type Tproduct = {
   }
   button: string
 }
+
+type TCard = {
+  product: Tproduct[]
+}

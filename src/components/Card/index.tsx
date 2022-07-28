@@ -6,30 +6,30 @@ import CardContainer from './CardStyles'
 *
 */
 
-const Card = (product: Tproduct[]): JSX.Element => {
+const Card = ({ product }: TCard): JSX.Element => {
   console.log(product, 'product')
   return (
     <CardContainer>
       <div className='product-image'>
-        {/* <img */}
-        {/*   srcSet={`${product.image.src[0]} 1000w, */}
-        {/*   ${imageDesktop} 1200w`} */}
-        {/*   src={imageMobile} */}
-        {/*   alt='Product image description' */}
-        {/* /> */}
+        <img
+          srcSet={`${product[0].image.src[0]} 1000w,
+          ${product[0].image.src[1]} 1200w`}
+          src={product[0].image.src[0]}
+          alt={product[0].image.alt}
+        />
       </div>
       <div className='content'>
         <header>
-          <p>Perfume</p>
-          <h2>Gabrielle essence eau de parfum</h2>
+          <p>{product[0].section}</p>
+          <h2>{product[0].title}</h2>
         </header>
         <div className='desciption'>
-          <p className='copy'>A floral, solar and voluptuos interpretation composed by Oliver Polge, Perfume-Creator for the house of CHANNEL</p>
+          <p className='copy'>{product[0].description}</p>
           <div className='price'>
-            <p className='price-tag'>$149.99</p><p className='discount-from'>$169.99</p>
+            <p className='price-tag'>{`$${product[0].price.currentPrice}`}</p><p className='discount-from'>{`$${product[0].price.discount}`}</p>
           </div>
         </div>
-        <button> <span>Add to Cart</span></button>
+        <button> <span>{product[0].button}</span></button>
       </div>
     </CardContainer>
   )
