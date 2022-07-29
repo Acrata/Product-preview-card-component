@@ -3,7 +3,7 @@ import styled from 'styled-components/macro'
 import imageMobile from '../assets/image-product-mobile.jpg'
 import imageDesktop from '../assets/image-product-desktop.jpg'
 
-const productData: Tproduct[] = [
+export const productData: Tproduct[] = [
   {
     section: 'Perfume',
     title: 'Gabrielle essence eau de parfum',
@@ -16,7 +16,7 @@ const productData: Tproduct[] = [
       currentPrice: 149.99,
       discount: 169.99
     },
-    button: 'Add to cart'
+    button: 'Add to Cart'
   }
 ]
 

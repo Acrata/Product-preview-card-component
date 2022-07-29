@@ -7,7 +7,6 @@ import CardContainer from './CardStyles'
 */
 
 const Card = ({ product }: TCard): JSX.Element => {
-  console.log(product, 'product')
   return (
     <CardContainer>
       <div className='product-image'>
@@ -29,7 +28,7 @@ const Card = ({ product }: TCard): JSX.Element => {
             <p className='price-tag'>{`$${product[0].price.currentPrice}`}</p><p className='discount-from'>{`$${product[0].price.discount}`}</p>
           </div>
         </div>
-        <button> <span>{product[0].button}</span></button>
+        <button role='button' name='addToCart'> <span>{product[0].button}</span></button>
       </div>
     </CardContainer>
   )
