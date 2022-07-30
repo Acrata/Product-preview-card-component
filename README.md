@@ -48,7 +48,7 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - [Typescript](https://www.typescriptlang.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
-- [Vite](https://vitejs.dev/) - For styles
+- [Vite](https://vitejs.dev/)
 
 
 ### What I learned
