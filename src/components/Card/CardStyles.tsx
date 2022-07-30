@@ -13,6 +13,10 @@ const CardContainer = styled.article`
   max-height: 629px;
   max-width: var(--card-width);
   box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.07);
+  .product-image img {
+    height: 240px;
+    width: 344px;
+  }
 
   header {
     margin-inline: var(--m-medium);
@@ -81,6 +85,9 @@ const CardContainer = styled.article`
       width: 80%;
     }
     .product-image img {
+      min-height: 457px;
+      min-width: 300px;
+      width: 300px;
       height: 100%;
     }
     .content {
