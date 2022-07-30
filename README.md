@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Acrata/Product-preview-card-component)
-- Live Site URL: [Add live site URL here](https://curious-chaja-f5e06c.netlify.app/)
+- Solution URL: [Solution on github](https://github.com/Acrata/Product-preview-card-component)
+- Live Site URL: [Live site on netlify](https://curious-chaja-f5e06c.netlify.app/)
 
 ## My process
 
@@ -53,7 +53,7 @@ Users should be able to:
 
 ### What I learned
 
-This challenge helps me to improve my typing skills. Also this small projects give me the change to test new approches and tools for my developer experiences.
+This challenge helps me to improve my typing skills. Also this small projects give me the change to test new approches and tools for my developer experience.
 
 In this particular project i use "Performance insights" tab from Google devTools to fix some layout shifts. Few issues whit layout shifts weren't fixed though.
 
