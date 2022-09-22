@@ -63,6 +63,6 @@ My main goal is improve with typing and performance issues
 
 ## Author
 
-- Website - [Hector Ovalles](https://github.com/Acrata)
+- Website - [Hector Ovalles](https://github.com/devctor)
 - Frontend Mentor - [@Acrata](https://www.frontendmentor.io/profile/Acrata)
 
